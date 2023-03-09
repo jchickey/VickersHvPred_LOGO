@@ -15,7 +15,7 @@ The trained model will predict the hardness of materials based on 141 compositio
 
 To train the model and predict hardness, follow these steps:
 
-### 1 Generate descriptors
+### 1. Generate descriptors
 
 First, prepare your compositions in an excel file, and name it `pred_hv_comp.xlsx`. The first column of the `pred_hv_comp.xlsx` file should be named as `Composition`.
 
@@ -26,7 +26,7 @@ The code will generate an output file named `pred_hv_descriptors.xlsx` containin
 *IMPORTANT STEP:* manually add a new column at the end of the descriptor file you just generated with the desired load value (unit: N). Predicting the hardness of the same material at different loads (i.e. 0.49 N and 4.9 N) would require two instances in `pred_hv_comp.xlsx` 
 
 
-### 2 Train the model and make prediction of your compounds
+### 2. Train the model and make prediction of your compounds
 
 The training dataset is provided in the file `hv_comp_load.xlsx` where you will find chemical compositions, hardness values, and corresponding load values. The training process of our model will be automatically done when you run the prediction script
 
