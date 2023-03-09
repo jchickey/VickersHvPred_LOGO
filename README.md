@@ -28,7 +28,7 @@ The code will generate an output file named `pred_hv_descriptors.xlsx` containin
 
 ### 2 Train the model and make prediction of your compounds
 
-The training dataset is provided in the file `hv_comp_load.xlsx` where you will find chemical compositions, hardness values, and corresponding load values. The training process of our model will be automatically done when you run the prediction script as this:
+The training dataset is provided in the file `hv_comp_load.xlsx` where you will find chemical compositions, hardness values, and corresponding load values. The training process of our model will be automatically done when you run the prediction script
 
 Results will be stored in a file named `predicted_hv.xlsx`. Basically the script will first train the model using the dataset we constructed, then read the `pred_hv_descriptors.xlsx` file you just generated and give you the predicted hardness at any load value you would be interested in.
 
